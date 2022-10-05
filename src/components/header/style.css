@@ -1,0 +1,844 @@
+.header {
+    background-color: #2a9a79;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__position {
+    width: 10%;
+}
+
+.btn__text {
+    text-transform: capitalize;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-family: trebuchet ms;
+}
+
+.background__img {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background: center;
+    background: fixed;
+    background-size: cover;
+}
+
+.background__text {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    color: white;
+    font-size: 2em;
+    margin: 5px;
+}
+
+.text-p {
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 1em;
+}
+
+.color {
+    font-weight: 1000;
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 1.5em;
+}
+
+.color1 {
+    font-family: Bahnschrift;
+    color: #32f6a4;
+    font-size: 1.3em;
+}
+
+.position__svg {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.twitter__svg {
+    margin: 10px;
+    fill: gray;
+    transition: all 1s ease;
+}
+
+.twitter__svg:hover {
+    fill: white;
+    transition-duration: 1s;
+}
+
+.facebook__svg {
+    margin: 10px;
+    fill: gray;
+    transition: all 1s ease;
+}
+
+.facebook__svg:hover {
+    fill: white;
+    transition-duration: 1s;
+}
+
+.google__svg {
+    margin: 10px;
+    fill: gray;
+    transition: all 1s ease;
+}
+
+.google__svg:hover {
+    fill: white;
+    transition-duration: 1s;
+}
+
+.dribbble__svg {
+    margin: 10px;
+    fill: gray;
+    transition: all 1s ease;
+}
+
+.dribbble__svg:hover {
+    fill: white;
+    transition-duration: 1s;
+}
+
+.div__features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+}
+
+.div__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.div__text {
+    padding-top: 1em;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    color: #2a9a79;
+    font-weight: 1000;
+    font-size: 1.6em;
+}
+
+.text__position {
+    margin-top: 2em;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text__branding {
+    width: 25%;
+}
+
+.text__development {
+    width: 25%;
+}
+
+.text__consulting {
+    width: 25%;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #32f6a4;
+    border-style: inset;
+    width: 30px;
+    height: 30px;
+    border-radius: 3em;
+}
+
+.branding {
+    padding-top: 10px;
+    display: flex;
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.lorem__branding {
+    text-align: justify;
+    font-family: Calibri;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.border2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #32f6a4;
+    border-style: inset;
+    width: 30px;
+    height: 30px;
+    border-radius: 3em;
+}
+
+.development {
+    padding-top: 10px;
+    display: flex;
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.lorem__development {
+    text-align: justify;
+    font-family: Calibri;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.border3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #32f6a4;
+    border-style: inset;
+    width: 30px;
+    height: 30px;
+    border-radius: 3em;
+}
+
+.consulting {
+    display: flex;
+    padding-top: 10px;
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.lorem__consulting {
+    text-align: justify;
+    font-family: Calibri;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.works__text {
+    padding-top: 5vh;
+    font-family: Bahnschrift;
+    color: #5e5d5d;
+    font-weight: 600;
+    line-height: 0.7em;
+}
+
+.div__works {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+}
+
+.br {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_container {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_text1 {
+    text-transform: capitalize;
+    background-color: transparent;
+    border-style: none;
+    color: black;
+    font-family: Bahnschrift;
+    border-radius: 1em;
+    font-size: 1em;
+    transition: all 0.5s ease;
+}
+
+.btn_text1:hover {
+    color: black;
+    background-color: #2a9a79;
+}
+
+.pictures__position {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.pictures__position img {
+    transition: 1s;
+}
+
+.img__hover {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+    filter: grayscale(1);
+    transition: 1s;
+}
+
+.img__hover:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    width: 85%;
+    height: 70vh;
+}
+
+.div__team {
+    width: 100%;
+    height: 70vh;
+}
+
+.div___content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+}
+
+.img__team {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hover__team {
+    background-color: #32f6a4;
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.text_Div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hover__team .team1 {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.hover__team .team1 .hover__text {
+    color: #fff;
+    margin: 5px;
+}
+
+.hover__team .team1 .hover_textP {
+    color: #fff;
+    margin: 5px;
+}
+
+.hover__team .team1 .btn_team1 {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.hover__team .team1 .btn_team1:hover {
+    background: #2a9a79;
+    color: #fff;
+}
+
+.hover__team .team1 > .team__container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hover__team .team1:hover > .team__container {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.hover__team .team1 .team__container {
+    opacity: 0;
+    background-color: rgba(42, 154, 121, 0.5);
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+}
+
+.hover__team .team1 .img__team1 {
+    transition: all 0.2s linear;
+}
+
+.hover__team .team1:hover .img__team1 {
+    transform: scale(1.3);
+}
+
+.hover__team .team1:hover .team__container {
+    opacity: 1;
+}
+
+.btn__position {
+    padding-top: 1em;
+    display: flex;
+}
+
+.hover__text {
+    display: flex;
+    justify-content: center;
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+}
+
+.hover_textP {
+    display: flex;
+    justify-content: center;
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+    font-size: 0.7em;
+}
+
+.name__team {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team__john {
+    font-family: Bahnschrift;
+    font-size: 1.5em;
+}
+
+.john__text {
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 1em;
+    padding-bottom: 30px;
+}
+
+.team__john:hover {
+    color: #2a9a79;
+}
+
+.div__facts {
+    background-color: rgba(6, 35, 51, 0.5);
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.div__facts::after {
+    color: #737C85;
+}
+
+.div__color {
+    background-color: rgba(6, 35, 51, 0.7);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heart__svg1 {
+    color: white;
+}
+
+.container__svg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    width: 70%;
+    height: 20vh;
+    padding-bottom: 4em;
+}
+
+.div__items {
+    color: white;
+}
+
+.div__items {
+    border: 1px solid #737C85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.dop-text__content {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.text__span {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 4em;
+}
+
+.hours__work {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 1em;
+}
+
+.text__span1 {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 4em;
+}
+
+.div__discuss {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heart__svg2 {
+    color: black;
+}
+
+.dop-div__container {
+    margin-top: 2em;
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lorem__position {
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-say__hello {
+    width: 75%;
+    height: 20vh;
+}
+
+.svg__icons {
+    color: #989595;
+    width: 10%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text_span__lorem {
+    font-family: Bahnschrift;
+    font-size: 1.5em;
+    color: #535760;
+}
+
+.text_p__lorem {
+    font-family: Bahnschrift;
+    font-size: 1em;
+    color: #737C85;
+}
+
+.contact {
+    width: 100%;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+.contact .group {
+    padding-left: 35px;
+    width: 100%;
+}
+
+.contact .contact__form {
+    font-size: 1em;
+    display: flex;
+}
+
+.input-field1 {
+    padding-left: 2em;
+}
+
+#name {
+    border: 3px;
+    border-bottom: ridge;
+    width: 20vw;
+}
+
+#email {
+    border: 3px;
+    border-bottom: ridge;
+    width: 20vw;
+}
+
+#message {
+    border: 3px;
+    border-bottom: ridge;
+    width: 42vw;
+}
+
+#text__hello {
+    padding-left: 15px;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+.btn__contact {
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div__envelope {
+    padding-right: 20px;
+    color: #2a9a79;
+}
+
+.btn__messege {
+    background-color: transparent;
+    border-style: none;
+    color: black;
+    font-family: Bahnschrift;
+    font-size: 1em;
+}
+
+.footer {
+    background-color: #2a9a79;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dop__footer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 30vh;
+}
+
+.brandi__div {
+    margin-top: 2em;
+    margin-left:5em;
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sub__div {
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 25%;
+    color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 25%;
+    color: white;
+    height: 20vh;
+    margin-left: 4em;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 25%;
+    height: 20vh;
+    color: white;
+}
+
+.logo__footer {
+    padding-left: 1em;
+    width: 10vw;
+    height: 5vh;
+}
+
+.text__sub-div {
+    font-family: Bahnschrift;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.btn__sub-div {
+    margin-top: 2em;
+    width: 100%;
+    height: 4vh;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+}
+
+.text-dop__div {
+    margin-top: 1em;
+    font-family: Bahnschrift;
+}
+
+.input__div {
+    position: relative;
+}
+.input__div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
+    background: url("https://thumbs.dreamstime.com/b/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B8-%D0%B2%D0%BF%D1%80%D0%B0%D0%B2%D0%BE-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB-%D1%87%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B7%D0%BD%D0%B0%D1%87%D0%BA%D0%BE%D0%B2-162728419.jpg") no-repeat;
+    background-size: cover;
+}
+.input__div input {
+    width: 97%;
+    height: 25px;
+}
+
+.btn__text2 {
+    width: 20%;
+    height: 100%;
+    padding-top: 1.2em;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-family: Bahnschrift;
+    border-radius: 1em;
+    font-size: 0.8em;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.btn__text2:hover {
+    color: black;
+}
+
+.bi {
+    padding-top: 2em;
+    font-family: Bahnschrift;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.footer__end {
+    background-color: #2a9a79;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cop__span {
+    font-family: Bahnschrift;
+    color: white;
+}
+
+.btn__footer {
+    color: white;
+    font-size: 1em;
+    background-color: transparent;
+    border-style: none;
+    font-family: Bahnschrift;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.btn__footer:hover {
+    color: black;
+}
